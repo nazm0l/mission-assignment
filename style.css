@@ -118,3 +118,27 @@ body {
   margin-bottom: 60px;
 }
 /* Third Section end */
+
+/* Four Section Start */
+.community-text{
+  width: 70%;
+  padding-left: 11%;
+}
+
+.community-image{
+  width: 30%;
+  padding-right: 7%;
+}
+
+.community-image img{
+  width: 80%;
+}
+
+.community-container{
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin-bottom: 60px;
+}
