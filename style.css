@@ -1,12 +1,26 @@
+/* Global CSS */
 body {
   margin: 0;
   font-family: "Cookie", cursive;
   font-family: "PT Sans", sans-serif;
 }
 
-.hero-section {
+.flex-box {
   display: flex;
 }
+.common-color {
+  color: tomato;
+}
+.default-btn {
+  text-decoration: none;
+  background-image: linear-gradient(120deg, tomato, rgb(233, 176, 53));
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+}
+/* First Section Start */
 
 .half-width {
   width: 50%;
@@ -17,13 +31,10 @@ body {
   width: 80%;
 }
 
-.common-color {
-  color: tomato;
-}
-
 .focus-text {
   border-left: orange 4px solid;
-  font-size: 80px;
+  line-height: 60px;
+  font-size: 60px;
   padding-left: 15px;
   font-family: "PT Sans", sans-serif;
 }
@@ -31,26 +42,19 @@ body {
 .about-focus {
   padding-right: 180px;
   margin-bottom: 40px;
-  font-size: 20px;
-}
-
-.default-btn {
-  text-decoration: none;
-  background-image: linear-gradient(120deg, tomato, rgb(233, 176, 53));
-  padding: 10px 40px;
-  font-size: 20px;
-  font-weight: 600;
-  color: white;
-  border-radius: 5px;
+  font-size: 18px;
 }
 
 .scroll-txt {
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 16px;
 }
+/* First Section End */
+
+/* Second Section Start */
 
 .mission-header-text {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
   text-align: center;
   margin: 30px 0px;
