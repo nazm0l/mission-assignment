@@ -53,6 +53,10 @@ body {
 
 /* Second Section Start */
 
+.mission-section{
+  margin-bottom: 60px;
+}
+
 .mission-header-text {
   font-size: 40px;
   font-weight: 800;
@@ -62,13 +66,31 @@ body {
 
 .three-card {
   width: 30%;
-  padding: 5%;
+  padding: 15px;
+}
+.three-width{
+  padding: 0 10%;
 }
 
 .three-card img {
   width: 30%;
 }
 
-.tst {
-  background-color: gray;
+.first-card-styles {
+  background-color: #4f9da62d;
+  padding: 20px;
+  border-radius: 25px;
 }
+
+.second-card-styles{
+  background-color: #ff595938;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.third-card-styles{
+  background-color: #FFF4D6;
+  padding: 20px;
+  border-radius: 25px;
+}
+
