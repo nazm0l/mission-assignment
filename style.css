@@ -131,14 +131,32 @@ body {
 }
 
 .community-image img{
-  width: 80%;
+  width: 90%;
+  padding-bottom: 65px;
 }
 
-.community-container{
+.community-image{
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-size: 150px;
-  background-position-x: right;
-  background-position-y: bottom;
+  background-position-x: 200px;
+  background-position-y: 200px;
+  
+}
+.community-container{
   margin-bottom: 60px;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+footer p{
+    font-size: 14px;
+}
+footer h2{
+  font-size: 44px;
+  margin: 0;
 }
