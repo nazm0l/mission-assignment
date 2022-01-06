@@ -23,9 +23,6 @@ body {
 
 /* First Section Start */
 
-.hero{
-  background-image: linear-gradient(white,#ff595938);
-}
 .half-width {
   width: 50%;
   padding-left: 5%;
@@ -46,13 +43,14 @@ body {
 .about-focus {
   padding-right: 180px;
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
 .scroll-txt {
   margin-top: 40px;
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 /* First Section End */
 
@@ -141,6 +139,7 @@ body {
 .community-image{
   width: 30%;
   padding-right: 7%;
+  margin-left: -80px;
 }
 
 .community-image img{
@@ -152,8 +151,8 @@ body {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-size: 150px;
-  background-position-x: 200px;
-  background-position-y: 200px;
+  background-position-x: 220px;
+  background-position-y: 220px;
   
 }
 
